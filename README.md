@@ -9,10 +9,18 @@ LaraGYM is a Laravel-based web application for a fictive Gym.
  - SQL server
 
 ### Run the application
- - Set up your own .env file based on the type of SQL you are using.
+ - Set up your own .env file based on the type of SQL & SMTP provider you are using.
  - Run the database migration with the command: `php artisan migrate`.
  - Run the following commands:
-  ```npm install
+  ```
+    $ npm install
     $ npm run dev / build
     $ php artisan serve
   ```
+
+### Used packages / services in development:
+ - Breeze
+ - Tailwind
+ - TW-Elements
+ - Mailtrap
+ - Laravel Lang
