@@ -24,3 +24,5 @@ LaraGYM is a Laravel-based web application for a fictive Gym.
  - TW-Elements
  - Mailtrap
  - Laravel Lang
+ - Heroicons
+ - Typed.js
