@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
 
-    @vite(['resources/css/app.css', 'resources/css/hamburger.css', 'resources/js/app.js'])
+    @vite(['resources/css/app.css', 'resources/css/burgir.css', 'resources/js/app.js', 'resources/js/burgir.js'])
 
 </head>
 

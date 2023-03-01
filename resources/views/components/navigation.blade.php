@@ -3,20 +3,20 @@
    
 
 
-    <nav class="fixed top-0 flex w-full items-center justify-between  text-white focus:text-yellow-300 md:flex-wrap md:justify-start"
+    <nav class="fixed top-0 flex w-full items-center justify-between text-white focus:text-yellow-300 md:flex-wrap md:justify-start"
         data-te-navbar-ref>
-        <div class="flex w-full flex-wrap items-center justify-between m-10">
+        <div class="flex w-full flex-wrap items-center justify-between m-5">
 
             <!-- Hamburger icon -->
 
-            <div class="flex items-center">
-                <div class="hamburger-icon py-2 hover:text-yellow-300 focus:text-yellow-300 lg:hidden" id="icon" data-te-collapse-init data-te-target="#navbarSupportedContentX" aria-controls="navbarSupportedContentX" aria-expanded="false" aria-label="Toggle navigation">
+      
+                <div class="flex items-center h-8 w-8 justify-center hamburger-icon lg:hidden" id="burgir" data-te-collapse-init data-te-target="#navbarSupportedContentX" aria-controls="navbarSupportedContentX" aria-expanded="false" aria-label="Toggle navigation">
                     <div class="icon-1" id="a"></div>
                     <div class="icon-2" id="b"></div>
                     <div class="icon-3" id="c"></div>
                     <div class="clear"></div>
                 </div>
-            </div>
+         
 
             {{-- <div class="flex items-center">
                 <button
@@ -35,7 +35,7 @@
             <!-- Hamburger icon -->
 
             <!-- Links -->
-            <div class="!visible hidden grow basis-[100%] items-center lg:!flex lg:basis-auto"
+            <div class="!visible hidden grow basis-[100%] items-center lg:!flex lg:basis-auto mt-5 lg:mt-0"
                 id="navbarSupportedContentX" data-te-collapse-item>
                 <ul class="mr-auto flex flex-col lg:flex-row text-3xl lg:space-x-10 lg:space-y-0 space-y-3"
                     data-te-navbar-nav-ref>
@@ -70,21 +70,6 @@
             <!-- Links -->
         </div>
     </nav>
-
-    <script>
-var icon = document.getElementById("icon");
-var icon1 = document.getElementById("a");
-var icon2 = document.getElementById("b");
-var icon3 = document.getElementById("c");
-var nav = document.getElementById('nav');
-var blue = document.getElementById("blue");
-
-icon.addEventListener('click', function() {
-  icon1.classList.toggle('a');
-  icon3.classList.toggle('b');
-  icon2.classList.toggle('c');
-});
-    </script>
 
     {{-- 
         @auth

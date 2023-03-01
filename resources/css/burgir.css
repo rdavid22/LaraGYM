@@ -1,10 +1,11 @@
 .hamburger-icon {
-    height: 60px;
-    width: 60px;
     z-index: 1000;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
-    background: transparent;
+}
+
+.hamburger-icon:hover>div {
+    background-color: rgb(253 224 71);
 }
 
 .icon-1,
@@ -38,4 +39,8 @@
 
 .icon-2.c {
     opacity: 0;
+}
+
+.clear {
+    clear: both;
 }
