@@ -8,37 +8,21 @@
         <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
             style="background-color: rgba(0, 0, 0, 0.75)">
             <div class="flex flex-col justify-center items-center h-full">
-                <div class="text-center px-20 md:px-40">
                     
-                    
-                    <!-- Hero text -->
-                    <div class="flex flex-col">
-                        <h1 class="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">
-
-                            <!-- LaraGYM text -->
-                            <span class="text-yellow-300">LaraGym</span>
-                            
-                            <!-- Animated text -->
-                            <div>
+                <!-- Hero text -->
+                <div class="flex flex-col w-screen text-center">
+                    <div class="text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold tracking-tight">
+                        <!-- LaraGYM text -->
+                        <span class="text-yellow-300">LaraGym</span>
+                        
+                        <!-- Animated text -->
+                        <div class="h-80">
+                            <div class="h-full w-full">
                                 <span id="typedTextLandingPage"></span>
                             </div>
-    
-                        </h1>
+                        </div>
                     </div>
-                    
-                    {{-- <button type="button"
-                        class=" inline-block px-7 py-3 border-2 border-white hover:border-none text-white font-medium text-sm leading-snug uppercase rounded hover:bg-yellow-300 hover:text-black focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
-                        data-mdb-ripple="true" data-mdb-ripple-color="light">
-                        Leírás
-                    </button> --}}
                 </div>
-                
-                {{-- <!-- Bouncy arrow -->
-                <div class="py-10">
-                    <svg class="relative inline-block animate-bounce w-10 h-10 fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 17.25L12 21m0 0l-3.75-3.75M12 21V3" />
-                    </svg>
-                </div> --}}
             </div>
 
             <!-- Bouncy arrow -->
