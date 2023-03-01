@@ -3,8 +3,7 @@
    
 
 
-    <nav class="fixed top-0 flex w-full items-center justify-between text-white focus:text-yellow-300 md:flex-wrap md:justify-start"
-        data-te-navbar-ref>
+    <nav id="heromenu" class="fixed top-0 flex w-full items-center justify-between text-white focus:text-yellow-300 md:flex-wrap md:justify-start" data-te-navbar-ref>
         <div class="flex w-full flex-wrap items-center justify-between m-5">
 
             <!-- Hamburger icon -->
