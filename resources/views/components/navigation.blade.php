@@ -1,36 +1,15 @@
 <!-- Section: Navigation -->
 @if (Route::has('login'))
-   
-
-
     <nav id="heromenu" class="fixed top-0 flex w-full items-center justify-between text-white focus:text-yellow-300 md:flex-wrap md:justify-start" data-te-navbar-ref>
         <div class="flex w-full flex-wrap items-center justify-between m-5">
 
             <!-- Hamburger icon -->
-
-      
                 <div class="flex items-center h-8 w-8 justify-center hamburger-icon lg:hidden" id="burgir" data-te-collapse-init data-te-target="#navbarSupportedContentX" aria-controls="navbarSupportedContentX" aria-expanded="false" aria-label="Toggle navigation">
                     <div class="icon-1" id="a"></div>
                     <div class="icon-2" id="b"></div>
                     <div class="icon-3" id="c"></div>
                     <div class="clear"></div>
                 </div>
-         
-
-            {{-- <div class="flex items-center">
-                <button
-                    class="border-0 bg-transparent py-5 leading-none transition-shadow duration-150 ease-in-out hover:text-yellow-300 focus:text-yellow-300 lg:hidden"
-                    type="button" data-te-collapse-init data-te-target="#navbarSupportedContentX"
-                    aria-controls="navbarSupportedContentX" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="[&>svg]:w-10 h-10">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                            stroke="currentColor" class="h-10 w-10">
-                            <path stroke-linecap="round" stroke-linejoin="round"
-                                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                        </svg>
-                    </span>
-                </button>
-            </div> --}}
             <!-- Hamburger icon -->
 
             <!-- Links -->
